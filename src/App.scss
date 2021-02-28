@@ -1,0 +1,29 @@
+.App {
+  text-align: center;
+}
+.mastHead {
+  background-image: url(./Images/path_forest_fog_152062_2560x1080.jpg);
+  color: antiquewhite;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
+  padding-top: 10.5rem;
+  padding-bottom: 6rem;
+  font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji",
+    "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+body {
+  background-color: rgb(116, 113, 112);
+}

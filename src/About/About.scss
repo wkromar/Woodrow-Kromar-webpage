@@ -1,0 +1,36 @@
+.aboutText {
+  color: antiquewhite;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  display: flex;
+  align-items: center;
+  margin-left: 10px;
+  margin-right: 10px;
+  justify-content: flex-start;
+}
+.headshot {
+  justify-content: flex-end;
+
+  width: 14rem;
+  height: 18rem;
+  border-radius: 200px;
+  border: 3px solid;
+  border-color: rgb(187, 133, 124);
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.about {
+  color: white;
+
+  align-items: inherit;
+}
+
+.secondaryText {
+  color: antiquewhite;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+
+  align-items: center;
+  margin-left: 10px;
+  margin-right: 10px;
+}
