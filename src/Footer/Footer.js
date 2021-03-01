@@ -22,7 +22,7 @@ function Footer() {
       </a>
       <a
         class="btn btn-dark btn-social mx-2"
-        href="https://github.com/jjschubert"
+        href="https://github.com/wkromar?tab=repositories"
       >
         <svg
           className="githubImage"

@@ -17,9 +17,9 @@ function App() {
         <About />
         <Portfolio />
         {/* all items will above this line */}
+        <Contact />
         <Footer />
       </div>
-      <Contact />
     </div>
   );
 }

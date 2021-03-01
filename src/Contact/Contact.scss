@@ -1,0 +1,21 @@
+.info {
+  display: flex;
+  padding: 40px;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.infoCard {
+  align-items: center;
+  background-color: rgb(161, 160, 160);
+  color: rgba($color: #383838, $alpha: 1);
+  border-radius: 3px;
+  font-size: 24px;
+  padding: 5px;
+  height: 200px;
+  width: 400px;
+}
+.infoDetails {
+  color: rgba($color: #383838, $alpha: 1);
+  font-size: 24px;
+  justify-content: flex-end;
+}
