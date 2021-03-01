@@ -11,6 +11,7 @@
   width: 100%;
   opacity: 1;
   border-radius: 8px;
+  padding: 10px;
 }
 .headshot {
   justify-content: flex-end;
@@ -46,7 +47,7 @@
 .btn {
   display: inline-block;
   font-weight: 400;
-  color: #212529;
+  color: #f1a428;
   text-align: center;
   vertical-align: middle;
   -webkit-user-select: none;
@@ -61,4 +62,36 @@
   border-radius: 0.25rem;
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
     border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+.aboutTitle {
+  text-shadow: 5px 5px rgba(98, 94, 94, 0.85);
+}
+.githubImage {
+  display: inline-block;
+  font-size: inherit;
+  height: 2em;
+  overflow: visible;
+  vertical-align: -0.125em;
+  background: linear-gradient(
+    -45deg,
+    rgb(98, 96, 96),
+    rgb(149, 112, 112),
+    rgb(199, 63, 63),
+    rgb(214, 139, 40)
+  );
+  background-size: 600% 600%;
+  position: relative;
+  animation: change 15s ease-in-out infinite;
+  border-radius: 50px;
+}
+@keyframes change {
+  0% {
+    background-position: 0 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0 50%;
+  }
 }

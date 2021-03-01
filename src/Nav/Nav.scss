@@ -7,16 +7,23 @@
   border-bottom-right-radius: 8px;
   margin: 0 0 30px;
   overflow: hidden;
+  background-color: rgb(53, 53, 54, 0.8);
+  padding: 10px;
+  width: 100%;
+  align-items: flex-end;
+  cursor: pointer;
+  position: sticky;
 }
 
 .nav a {
   text-decoration: none;
+  font-size: 30px;
 }
 
 .nav-title {
   font-size: 24px;
   font-weight: 700;
-  color: #555454;
+  color: #ffffff;
   padding-left: 10px;
   margin: 0;
 }
@@ -33,7 +40,4 @@
   border: none;
   cursor: pointer;
   outline: 0;
-}
-
-.navLink:hover {
 }
