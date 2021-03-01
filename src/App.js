@@ -7,8 +7,8 @@ import Portfolio from "./Portfolio/Portfolio";
 function App() {
   return (
     <div className="App">
+      <Nav />
       <div className="mastHead">
-        <Nav />
         <h1>Woodrow Kromar</h1>
         <h2> Stack Software Developer</h2>
       </div>

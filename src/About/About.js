@@ -3,7 +3,7 @@ import Images from "../Images/headshot.jpg";
 
 function About() {
   return (
-    <div className="about">
+    <div className="about" id="About">
       <h2>About</h2>
       <div className="aboutText">
         <span>
