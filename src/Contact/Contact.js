@@ -2,7 +2,8 @@ import "./Contact.scss";
 
 function Contact() {
   return (
-    <div className="info">
+    <div id="Contact" className="info">
+      {/* <h2 className="portfolioHeader">Contact</h2> */}
       <div className="infoCard">
         <p>Email</p>
         <p className="infoDetails">wkromar12@gmail.com</p>
