@@ -24,7 +24,7 @@ function Portfolio() {
   // onClick={() => setModal("snackr")}
   return (
     <div id="portfolio" className="portfolio">
-      <h2>Portfolio</h2>
+      <h1>Portfolio</h1>
 
       <div className="modal-bg">
         <div className="modal">

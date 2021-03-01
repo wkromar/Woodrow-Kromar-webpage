@@ -27,20 +27,23 @@
 .modal {
   position: relative;
   font-family: "Monsterrat", sans-serif;
-  background: rgb(155, 38, 38);
+  background-color: rgba($color: #383838, $alpha: 1);
   width: 50%;
   height: 50%;
   display: flex;
   justify-content: space-around;
   align-items: center;
   flex-direction: column;
-  transform: scale(0.5);
+  transform: scale(0.9);
   border-radius: 8px;
+  padding: 16px;
+  font-size: 20px;
 }
 .modal-btn {
   padding: 10px 30px;
   background-color: lightcoral;
   color: white;
+  font-size: 28px;
   border: none;
   font-family: "Monsterrat", sans-serif;
   cursor: pointer; //check our other pointers
@@ -56,7 +59,6 @@
 }
 
 .portfolioText {
-  background-color: rgba(146, 143, 143, 0.7);
   border-radius: 8px;
   width: 100%;
   height: 100%;

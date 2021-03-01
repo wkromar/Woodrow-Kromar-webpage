@@ -10,12 +10,14 @@ function App() {
       <Nav />
       <div className="mastHead">
         <h1>Woodrow Kromar</h1>
-        <h2> Stack Software Developer</h2>
+        <h2> Full Stack Software Developer</h2>
       </div>
-      <About />
-      <Portfolio />
-      {/* all items will above this line */}
-      <Footer />
+      <div className="contentBody">
+        <About />
+        <Portfolio />
+        {/* all items will above this line */}
+        <Footer />
+      </div>
     </div>
   );
 }

@@ -1,8 +1,10 @@
 .App {
   text-align: center;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
 }
 .mastHead {
-  background-image: url(./Images/path_forest_fog_152062_2560x1080.jpg);
   color: antiquewhite;
   background-repeat: no-repeat;
   background-attachment: scroll;
@@ -25,12 +27,28 @@
 }
 
 body {
-  background-color: #fff;
-  background: linear-gradient(-45deg, #3b3b3a, #6e6969, #ad4b4b, #f1a312);
+  background-image: url(./Images/3643_red-forest-26750-3840x2160-wallpapers_3840x2160_h.jpg);
+  height: 100vh;
+  background-size: 100% 100%;
+  background-attachment: fixed;
+}
+
+.contentBody {
+  background: linear-gradient(
+    -45deg,
+    rgba(66, 65, 65, 0.85),
+    rgba(122, 114, 114, 0.85),
+    rgba(136, 78, 78, 0.85),
+    rgba(143, 107, 61, 0.85)
+  );
   background-size: 600% 600%;
   position: sticky;
   animation: change 15s ease-in-out infinite;
-
+  border-radius: 8px;
+  margin-bottom: 38px;
+  width: 85%;
+  padding: 16px;
+  align-items: center;
   @keyframes change {
     0% {
       background-position: 0 50%;
