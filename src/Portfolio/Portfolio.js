@@ -4,25 +4,14 @@ import Images from "../Images/Snackr.jpg";
 import { useState } from "react";
 import ReactGallery from "../Images/React_Gallery.jpg";
 import PetHotel from "../Images/OIP.jpg";
-
+// import Modal from ''
 function Portfolio() {
-  //   const [modal1, setModal1] = useState(false);
-  //   const setModal = () => {
-  //     setModal1(!modal1);
-  //     console.log(modal1);
-  //   };
+  // const [modal1, setModal1] = useState(false);
+  // const setModal = () => {
+  //   setModal1(prev =>!prev);
+  //   console.log(modal1);
+  // };
 
-  var modalBtn = document.querySelector(".modal-btn");
-  var modalBg = document.querySelector(".modal-bg");
-  var modalClose = document.querySelector("modal-close");
-
-  //   modalBtn.addEventListener("click", function () {
-  //     modalBg.classList.add("bg-active");
-  //   });
-  //   modalClose.addEventListener("click", function () {
-  //     modalBg.classList.remove("bg-active");
-  //   });
-  // onClick={() => setModal("snackr")}
   return (
     <div id="Portfolio" className="portfolio">
       <h1 className="portfolioHeader">Portfolio</h1>
