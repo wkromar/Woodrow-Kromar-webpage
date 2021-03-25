@@ -1,4 +1,15 @@
-# Getting Started with Create React App
+
+# Woodrow-Kromar-webpage
+    In preparation for my graduation from Prime Digital Academy, I created a professional webpage to showcase some of my favorite work as well as list my credentials in a    professional and stylistic setting to showcase my skills, ambitions, and interests. 
+
+
+# Author
+- [Woody Kromar](https://github.com/wkromar)
+
+# Built With
+    Javascript, React, Redux, Node, Express, HTML, and SCSS
+
+## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
@@ -55,6 +66,10 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-# Woodrow-Kromar-webpage
 
 
+
+## Aknowledgments
+    - Prime Digital Academy for teaching me Full-Stack Development
+    - Dane Smith for his constant support
+    - Zhu Cohort for their support and positivity
