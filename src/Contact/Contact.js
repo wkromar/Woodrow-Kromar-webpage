@@ -1,12 +1,16 @@
+import { getDefaultNormalizer } from "@testing-library/react";
 import "./Contact.scss";
-
+// personal contact info displayed
 function Contact() {
+  const email = `wkromar12@gmail.com`;
   return (
     <div id="Contact" className="info">
       {/* <h2 className="portfolioHeader">Contact</h2> */}
       <div className="infoCard">
         <p>Email</p>
-        <p className="infoDetails">wkromar12@gmail.com</p>
+        <a href={`mailto:${email}`} className="infoDetails">
+          {email}
+        </a>
       </div>
       <div className="infoCard">
         <p>Phone</p>
